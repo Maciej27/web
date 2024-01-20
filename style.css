@@ -1,5 +1,5 @@
 body {
-    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-family: Inter,  sans-serif; /* Rodzina czcionek */
     font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
     background-color: #f0f0f0; /* Kolor tła strony internetowej */
     color: #333333; /* Kolor tła strony internetowej*/ 
@@ -8,4 +8,19 @@ h1 {
     color: #fc51f4; /* Kolor nagłówka */
     font-size: 24px; /* Rozmiar czcionki nagłówka */
     font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+p {
+    color: #5988FF;
+    font-size: 18px;
+    font-family: Georgia, serif;
+}
+h2 {
+    color: #D6FF6B;
+    font-size: 22px;
+    font-family: Georgia, serif;
+}
+ul {
+    color: #fc51f4;
+    font-size: 18px;
+    font-family: Georgia, serif;
 }
