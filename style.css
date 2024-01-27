@@ -5,22 +5,42 @@ body {
     color: #333333; /* Kolor tła strony internetowej*/ 
 }
 h1 {
-    color: #fc51f4; /* Kolor nagłówka */
+    color: #2200ff; /* Kolor nagłówka */
     font-size: 24px; /* Rozmiar czcionki nagłówka */
     font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
 }
 p {
-    color: #5988FF;
+    color: #000000;
     font-size: 18px;
     font-family: Georgia, serif;
 }
 h2 {
-    color: #D6FF6B;
+    color: #2200ff;
     font-size: 22px;
     font-family: Georgia, serif;
 }
 ul {
-    color: #fc51f4;
+    color: #000000;
     font-size: 18px;
     font-family: Georgia, serif;
 }
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+
+    50% {
+      color: red;
+    }
+
+    100% {
+      color: blue;
+    }
+  }
+
+  h1:hover {
+    animation: color-change 3s infinite;
+  }
+  h2:hover {
+    animation: color-change 3s infinite;
+  }
